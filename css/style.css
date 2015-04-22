@@ -245,6 +245,10 @@
 			text-align: center;
 		}
 
+		.img_team{
+			margin: auto;
+		}
+
 		.img_team img{
 
 			height: 80px;
