@@ -229,6 +229,14 @@
 	
 	/* Image */
 
+		.team_member{
+
+			height: 150px;
+			width: 150px;
+
+
+		}
+
 		.img_team{
 
 			height: 100px;
