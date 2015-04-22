@@ -229,8 +229,14 @@
 	
 	/* Image */
 
+		.team{
+			margin-top: 50px;
+			  padding-left: 10px;
+			  border-bottom: solid grey 2px;
+			  padding-bottom: 15px;
+		}
 		.team_member{
-			margin-top: 20px;
+			
 		}
 
 		.team_member{
@@ -238,6 +244,7 @@
 			height: auto;
 			width: auto;
 			display: inline-block;
+			margin-right: 50px;
 		
 		}
 
