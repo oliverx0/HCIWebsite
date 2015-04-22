@@ -230,6 +230,10 @@
 	/* Image */
 
 		.team_member{
+			margin-top: 20px;
+		}
+
+		.team_member{
 
 			height: 150px;
 			width: auto;
