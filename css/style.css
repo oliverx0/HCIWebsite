@@ -235,7 +235,7 @@
 
 		.team_member{
 
-			height: 150px;
+			height: auto;
 			width: auto;
 			display: inline-block;
 			background: blue;
