@@ -232,9 +232,12 @@
 		.team_member{
 
 			height: 150px;
-			width: 150px;
+			width: auto;
+		}
 
+		.team_member p{
 
+			text-align: center;
 		}
 
 		.img_team{
