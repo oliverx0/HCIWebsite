@@ -14,8 +14,8 @@
 
 	body
 	{
-		background-image:			url('images/overlay.png'),		url('images/background.jpg');
-		background-repeat:			repeat,							no-repeat;
+		background-image:			url('images/overlay.png'),		url('images/restaurant.jpg');
+		background-repeat:			repeat,							repeat;
 		background-size:			auto,							100% 100%;
 	}
 
