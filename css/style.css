@@ -233,6 +233,7 @@
 
 			height: 150px;
 			width: auto;
+			display: inline-block;
 		}
 
 		.team_member p{
