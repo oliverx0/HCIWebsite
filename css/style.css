@@ -14,7 +14,7 @@
 
 	body
 	{
-		background-image:			url('images/overlay.png'),		url('images/background.jpg');
+		background-image:			url('images/overlay.png'),		url('images/backgroun.jpg');
 		background-repeat:			repeat,							no-repeat;
 		background-size:			auto,							100% 100%;
 	}
@@ -228,6 +228,12 @@
 			}
 	
 	/* Image */
+
+		.img_team{
+
+			height: 100px;
+			background: blue;
+		}
 
 		.image
 		{
