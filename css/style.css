@@ -241,18 +241,12 @@
 			text-align: center;
 		}
 
-		.img_team{
+		.img_team img{
 
-			background: blue;
-			height: auto;
+			height: 100px;
+			width: 100px;
+			border-radius: 50%;
 		}
-
-			.img_team img{
-
-				height: 100px;
-				width: 100px;
-				border-radius: 50%;
-			}
 
 		.image
 		{
