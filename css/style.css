@@ -235,6 +235,11 @@
 			background: blue;
 		}
 
+			.img_team img{
+
+				height: 100%;
+			}
+
 		.image
 		{
 			display: inline-block;
