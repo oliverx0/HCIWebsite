@@ -70,6 +70,7 @@
 					<nav id="nav">
 						<a href="#me" class="icon fa-home active"><span>Home</span></a>
 						<a href="#work" class="icon fa-wheelchair"><span>Pallette</span></a>
+						<a href="#docs" class="icon fa-envelope"><span>Project Documentation</span></a>
 						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
 					</nav>
 
@@ -124,7 +125,21 @@
 									We have created a tongue interface for mouse control with the long term goal of enabling greater independence through control of technology. Our base design is based off of the concept of the mouse. By taking a universal input device normally used by the hand and configuring it for the tongue, we enable SCI patients to use any technology normally facilitated by conventional mouse control. Our device is held in place by a retainer (our prototype, by a mouthguard), providing 2 buttons for commands and a trackpoint for navigation and direction. It has been contoured very carefully to fit the upper dome of the mouth and has established comfortable, simple control in testing.
 								</p>
 
-								<iframe style="display: block; margin: auto; margin-bottom: 10px;" width="560" height="315" src="https://www.youtube.com/embed/ruBCBmmevy4" frameborder="0" allowfullscreen></iframe>
+								<iframe style="display: block; margin: auto; margin-bottom: 10px;" width="420" height="315" src="https://www.youtube.com/embed/ldZwopL6KFE" frameborder="0" allowfullscreen></iframe>
+
+								<p>
+									Pallete is still a work in progress, but we envision the final product to be something like the following images:
+								</p>
+
+								<figure>
+									<img class="image_pallette" src="images/joystick.png" alt="Pallette Design">
+									<figcaption>Sketch for joystick with buttons</figcaption>
+								</figure>
+
+								<figure>
+									<img class="image_pallette" src="images/touchpad.png" alt="Pallette Design">
+									<figcaption>Sketch for touchpad with buttons</figcaption>
+								</figure>
 
 								<h3>Pallette's Design</h3>
 
@@ -200,7 +215,7 @@
 								</p>
 
 								<figure>
-									<img class="image_pallette" src="images/midfi_design.png" alt="Foam Prototypes">
+									<img class="image_pallette" src="images/midfi_design.png" alt="Mid-Fi Prototype Design">
 									<figcaption>Design of the Mid-Fi Protype</figcaption>
 								</figure>
 
@@ -215,9 +230,117 @@
 								</p>
 
 								<figure>
-									<img class="image_pallette" src="images/midfi.png" alt="Foam Prototypes">
+									<img class="image_pallette" src="images/midfi.png" alt="Mid-Fi Prototype">
 									<figcaption>Mid-Fi Protype</figcaption>
 								</figure>
+
+								<h4>Hi-Fi Prototypes and Field User Tests</h4>
+
+								<p>
+									After the previous iterations, we finally got to our Hi-Fi prototype. This prototype acts as an interface as in the form of mouse to a computer and is encased in a vacuum formed housing that sits in the concave dome behind the teeth of the upper jaw. Mouse interfacing was achieved through the rewiring of mouse components. The interface is exposed to the tongue as two buttons - “Left” and “Right”. These two buttons take up the entirety of the exposed interface to aid in control by the tongue. With this prototype we seek to test users’ control and comfort through a sequence of computer interfacing tasks. In designing a tongue interface we wish to make sure that the device comfortably fits in the user’s mouth and the users have fine enough control to achieve their desired tasks without frustration. 
+
+								</p>
+
+								<figure>
+									<img class="image_pallette" src="images/hifi.png" alt="Hi-Fi Prototype">
+									<figcaption>Hi-Fi Protype</figcaption>
+								</figure>
+
+								<p>
+									We then proceeded to test the protoype in the real world based on 3 tasks of varying motor difficulty users would need to perform.  
+								</p>
+
+								<p>
+									The first <strong>simple task</strong> consisted of giving a screen which randomly indicates what button to press and the user pressing those buttons. A counter of the right and wrong inputs is then recorded. This task allows to test comfort and control.  
+								</p>
+
+								<figure>
+									<img class="image_pallette" src="images/task1.png" alt="Simple Task">
+									<figcaption>Screen showing the simple task</figcaption>
+								</figure>
+
+								<p>
+									The second <strong>moderate task</strong> consisted of giving a users a pdf document of several pages long, and having them scroll up and down by clicking on the buttons. The rationale behind this task was to gain a qualitative impression of the feeling of the device in a common task users al already used to doing in another way. The scrolling of documents was very simple for us to do, since all that was need was to map the up and down arrow keys to the left and right clicks. After performing the task, users were asked for a general impression of the task, if they found any difficulties, if they felt in control all the time, and if they had any other feedback to provide.
+								</p>
+
+								<p>
+									The third <strong>complex task</strong> consisted of the user playing a video game using only the tongue-interface. The rationale behind this task was to gain a better understanding of the amount of control a user can have when using the tongue interface in complex, dynamic environments. Because of this, users were asked to play a simple video game which only required them to click every time they wanted a block to jump and evade obstacles. We measure the score of the game session as the quantitive variable. Users were asked to play the video game 3 times, and the highest and lowest scores were recorded.
+								</p>
+
+								<p>
+									After running the tasks with the different participants of our study, we arrived to the conclusion that the tasks performed were all quite simple for users to do. This gave us great insight into understanding what we were doing right and wrong.
+								</p>
+
+								<p>
+									Based on the results received, we were then ready to take our prototype to the next level by incorporating a joystick-like functionality in order to actually be able to move the mouse around. This would give us an even better impression of the tasks that the final users were expected to perform. Moreover, the use of plastic bags to cover the prototype was well- received among users, meaning that in future scenarios we would continue using it.
+								</p>
+
+								<h4>Building the final version</h4>
+
+								<p>
+									After all the lessons learned, we decided it was time to incorporate the mouse controlling functionality into our device. 
+									Based on the feedback we received from the previous high fidelity prototype we added the trackpoint for more fine control and incorporated all elements into a fixed mouthguard retainer. This addressed two major concerns of not having the device fixed in place and not being able to discern the left and right side. The presence of the trackpoint further provides subtle intuition of the divide from left to right.
+								</p>
+
+								<p>
+									Additionally, the tactile feel of the buttons significantly improved over past versions; the new version incorporated the mechanics of a keyboard in order to increase the accuracy of button presses. Finally we designed the wire coming out the side of the apparatus and bundled it in a thin beige tube to be more subtle.
+								</p>
+
+								<p>
+									In order to do add the trackpoint, we used ripped out several old IBM laptops to take the trackpoint from their keyboards. These trackpoints were attached to small boards that allowed us to connect the trackpoint to an Arduino Micro. 
+								</p>
+
+								<figure>
+									<img class="image_pallette" src="images/trackpoint_back.png" alt="TrackPoint Back">
+									<figcaption>Back of the TrackPoint board with connection pins</figcaption>
+								</figure>
+
+								<figure>
+									<img class="image_pallette" src="images/trackpoint2.png" alt="TrackPoint Arduino">
+									<figcaption>Connecting the TrackPoint and buttons to the Arduino</figcaption>
+								</figure>
+
+								<p>
+									After being able to move the cursor of the mouse with the TrackPoint connected to the Arduino and adding 2 buttons that would act as a left and right click, it was time incorporate it into the device. In order to do this, we bought a $13 mouthguard that would help fit the device into the mouth and built a small form to house the trackpoint and the buttons. It is worth noting that to determine the right size of the device, we used a mouth mold.
+								</p>
+
+								<figure>
+									<img class="image_pallette" src="images/mouthguard.png" alt="Mouthguard">
+									<figcaption>Mouthguard to hold the device</figcaption>
+								</figure>
+
+								<figure>
+									<img class="image_pallette" src="images/housing.png" alt="Mold">
+									<figcaption>Fitting the device in the mold</figcaption>
+								</figure>
+
+								<p>
+									The last step consisted on adding plastic covers to the device buttons, and it was ready go!
+								</p>
+
+								<figure>
+									<img class="image_pallette" src="images/final.png" alt="Final">
+									<figcaption>Final result</figcaption>
+								</figure>
+
+								<p>
+									This final prototype possesses the functions of a mouse, except that instead of operating it with hands and limbs it sits on the roof of the mouth and is operated with the tongue. The design incorporates three elements. Two clickable buttons are mounted as large-area buttons on the left and right sides of the interface, and a pressure-sensitive trackpoint nub is mounted in between. The pressure sensitive nub can be pushed in all directions with a continuous spectrum of movement spanning a 2-D plane. (For reference, this “trackpoint nub” is the same as the red blip mouse found on most IBM thinkpad laptops). This nub controls a mouse cursor. The size and texture of the button clicks have been made tactile through lever motion of plastic and wide button caps. The trackpoint tip is concave, enabling the tip of the tongue to grip and better direct the cursor.
+								</p>
+
+								<p>
+									We also incorporated trackpoint sensitivity sensitivity within the source code allowing us to easily increase or decrease the sensitivity as desired. In fact, we can even scale sensitivity for a specific axis, X or Y. We found this helped greatly given the strength and precision of a tongue differs from person to person. Also the agility of the tongue is different from left to right contrasted with front to back.
+								</p>
+
+								<h4>Unimplemented functionality and next steps </h4>
+
+								<p>
+									For this final prototype, we sought to include the most essential functions of moving, clicking, and holding. A few functions that require more complex combinations of these functions were left out; namely click & drag. Furthermore, functions of greater engineering complexity such as wireless communications were also omitted for sake of available time and resources.
+								</p>
+
+								<p>
+									Our focus moving forward, is to both refine the basic (essential) functionalities we have imbued our interface through form and element positioning, and to develop and include the more complex functionalities we have discussed. At the moment, we are considering using macros to emulate complex actions such as click and drag. Holding down a button for a multi-second duration is intended to serve as its trigger.
+
+								</p>
 
 								<p>
 									<ul>
@@ -284,12 +407,34 @@
 								-->
 							</article>
 
+						<!-- Documentation -->
+
+						<article id="docs" class="panel">
+								<header>
+									<h2>Projects Documents</h2>
+								</header>
+								<p>The documents with further detail about the projects execution can be found here: </p>
+
+								<p>
+									<ul>
+										<li><a href="pdf/HW2.pdf">Project Proposal</a></li>
+										<li><a href="pdf/HW3.pdf">Contextual Interviews</a></li>
+										<li><a href="pdf/HW4.pdf">Video Storyboarding</a></li>
+										<li><a href="pdf/HW5.pdf">Low-Fi Prototypes and Heuristic Evaluation</a></li>
+										<li><a href="pdf/HW6.pdf">Mid-Fi Prototype</a></li>
+										<li><a href="pdf/HW7.pdf">Hi-Fi Prototype and Field User Test</a></li>
+										<li><a href="pdf/HW8.pdf">Hi-Fi Protype 2</a></li>
+										<li><a href="pdf/HW8.pdf">Final Video</a></li>
+								</p>
+								
+							</article>
 						<!-- Contact -->
 							<article id="contact" class="panel">
 								<header>
 									<h2>Contact Us</h2>
 								</header>
 								<p>Interested in Pallette? Shoot us an email at <email>ojh22 [at] cornell.edu</email> and we will get back to you ASAP. Alternatively, fill out the following form: </p>
+
 								<form action="#" method="post">
 									<div>
 										<div class="row">
@@ -317,6 +462,7 @@
 										</div>
 									</div>
 								</form>
+							
 							</article>
 
 					</div>
